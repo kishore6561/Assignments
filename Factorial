@@ -1,0 +1,15 @@
+package week1.day1;
+
+public class Factorial {
+
+	public static void main(String[] args) {
+		int Number=5,Fact=1;
+		for(int i=1;i<Number;i++)
+		{
+			Fact=Fact*i;
+		}
+		System.out.println(Fact);
+
+	}
+
+}
