@@ -1,0 +1,22 @@
+package week1.day1;
+
+public class MyFirstJavaProgram {
+	
+
+	public static void main(String[] args) {
+		int Range=8,Firstnum=0,Secondnum=1,Sum;
+		
+		System.out.println(Firstnum);
+		System.out.println(Secondnum);
+		for(int i=2;i<Range;i++)
+		{
+		Sum=Firstnum+Secondnum;
+		System.out.println(Sum);
+		Firstnum=Secondnum;
+		Secondnum=Sum;
+		
+		
+		}
+
+	}
+}
